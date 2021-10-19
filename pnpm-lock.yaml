@@ -1,0 +1,16 @@
+dependencies:
+  test-pkgs-bar: 1.0.0
+lockfileVersion: 5.2
+packages:
+  /test-pkgs-bar/1.0.0:
+    dependencies:
+      test-pkgs-foo: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha512-r7gJiXQJT5rlYjigf+sPz6sA6DruCGwx+VJz7iFZK0uKV7KgDdsKInQsIxtQxV6el7huSwVFYBtF26CRZ09ppA==
+  /test-pkgs-foo/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-HKa2QDkyPJR1nGHhpVbT3s906ogiYTJq+Z5rORvNxnfyZVPzALBuOAvs+j9gKBshVHXSRyf7kiY6gxSKIQG6/Q==
+specifiers:
+  test-pkgs-bar: ^1.0.0
